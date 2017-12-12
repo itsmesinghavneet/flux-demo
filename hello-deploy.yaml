@@ -2,7 +2,7 @@ apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
   annotations:
-    flux.weave.works/locked: 'false'
+    flux.weave.works/locked: 'true'
   name: hello-deploy
 spec:
   replicas: 1
